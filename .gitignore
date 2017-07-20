@@ -1,0 +1,15 @@
+.DS_Store
+
+# Elastic Beanstalk CLI Files
+.elasticbeanstalk/*
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+# Temporary swap files
+*.swp*
+misc/*.swp*
+static/*.swp*
+views/*.swp*
